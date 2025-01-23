@@ -3,7 +3,7 @@ import os
 # Pegando variáveis de ambiente
 my_var = os.getenv('MY_VAR')
 my_var2 = os.environ.get("MY_VAR")
- 
+my_var3 = os.environ.get("my_var")
 
 # Função para imprimir variáveis de ambiente
 def print_env_vars():
