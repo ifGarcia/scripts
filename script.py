@@ -10,6 +10,7 @@ def print_env_vars():
     print('Environment Variables:')
     print(f'MY_VAR:  {my_var}')
     print(f'MY_VAR2: {my_var2}')
+    print(f'MY_VAR3: {my_var3}')
 
 # Chamando a função
 print_env_vars()
